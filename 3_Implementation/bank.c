@@ -18,7 +18,7 @@ void changebalance(int,float);
 int validate(int);
 int tokencall();
 int number_of_lines();
-float balance(int);
+void balance(float);
 
 int c_total=0, d_total=0;
 char text[60]="";

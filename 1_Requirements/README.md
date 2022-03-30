@@ -42,11 +42,43 @@ Mainly useful for urban cities.
 ### How:
 The bank management system is a programme that keeps track of a person's bank account. The system allows customers to create accounts, deposit/withdraw money from their accounts, and examine reports for all of their accounts.
 ## High Level Requirements
-
+| ID | Description | Cateogory | Status |
+| ---|:------------|:----------|:-------|
+| HR01 | user can be able to access the transaction record | Technical | IMPLEMENTED |
+| HR02 | user can be able to known the token information| Technical | IMPLEMENTED |
+| HR03 | user can be able to know the token calling information | Technical | IMPLEMENTED |
+| HR04 | user can be able to access account information | Technical | IMPLEMENTED |
+| HR05 | user can be able to know the credit details | Technical | IMPLEMENTED |
+| HR06 | user can be able to know the debit details | Technical | IMPLEMENTED |
+| HR07 | user can be able to know the token decalling information | Technical | IMPLEMENTED |
+| HR08 | user can be able to verify the account information | Technical | IMPLEMENTED |
+| HR09 | user can be able to know the account details | Technical | IMPLEMENTED |
+| HR10 | user can be able to verify the bank balance| Technical | IMPLEMENTED |
+| HR11 | user can be able to know the updated balance information| Technical | IMPLEMENTED |
+| HR12 | user can be able to know available options for transaction| Technical | IMPLEMENTED |
+| HR13 | user can be able to close the transaction page | Technical | IMPLEMENTED |
+| HR14 | user can be able to return to the main page | Technical | IMPLEMENTED |
 
 
 
 ## Low Level Requirements
+| ID | Description | HLR ID | Status(IMPLEMENTED/FUTURE) |
+| ---|:------------|:-------|:---------------------------|
+| LR01 |  user must choose the option for list of transaction options available | HR01 | IMPLEMENTED |
+| LR02 |  user can know the token detail | HR02 | IMPLEMENTED |
+| LR03 |  user can able to know the token calling information | HR03 | IMPLEMENTED |
+| LR04 |  same operation to know and verify their account details | HR04 | IMPLEMENTED |
+| LR05 |  same operation to know the account information | HR05 | IMPLEMENTED |
+| LR06 |  same operation to know the credit details | HR06 | IMPLEMENTED |
+| LR07 |  same operation to know the debit details | HR07 | IMPLEMENTED |
+| LR08 |  same operation to know the token decalling information  | HR08 | IMPLEMENTED |
+| LR09 |  same operation to verify the account information | HR09 | IMPLEMENTED |
+| LR10 |  same operation to know the balance details | HR10 | IMPLEMENTED |
+| LR11 |  user able to know the updated balance information | HR11 | IMPLEMENTED |
+| LR12 |  user can know the availabe transaction details | HR12 | IMPLEMENTED |
+| LR13 |  user can close the transaction page | HR13 | IMPLEMENTED |
+| LR14 |  user can return to the main page | HR14 | IMPLEMENTED |
+
 
 
 

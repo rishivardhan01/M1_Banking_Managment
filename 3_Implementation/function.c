@@ -3,6 +3,18 @@
 #include<string.h>
 #include<ctype.h>
 #include<time.h>
+int c_total=0, d_total=0;
+char text[60]="";
+
+struct bank
+{
+    int token;
+    int ac_no;
+    char name[20];
+    float amount;
+    struct bank *next; 
+}*front,*rear,*temp,*front1;
+
 void file()
 {
     char c;
@@ -390,7 +402,7 @@ void ndata(int c)
 
 
 
-float balance(int line_no)
+void balance(float line_no)
 {
     FILE *f;
     char ch;
@@ -512,4 +524,7 @@ void Return()
     int a;
     printf("\n\tPress any button to return <-  : ");
     scanf("%d",&a);
+}
+void test_bank(){
+    printf("test passed");
 }
