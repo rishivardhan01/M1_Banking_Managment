@@ -20,19 +20,19 @@
    
    
 ## Low Level Test Plan
-    | Test ID | Description | Exp.i/p | Exp.o/p | Actual o/p | Type Of Test |
-    |---------|:------------|:--------|:--------|:-----------|:-------------|
-    | L_01 | verify the transactions | amount | name present->avaliable; name absent->not found | name present->avaliable; name absent->not found | Technical |
-    | L_02 | verify the tokens | tokens | name present->avaliable; name absent->not found | name present->avaliable; name absent->not found | Technical |
-    | L_03 | verify token calling | tokens | name present->avaliable; name absent->not found | name present->avaliable; name absent->not found | Technical |
-    | L_04 | verify account | account | account present->avaliable; account absent->not found | account present->avaliable; account absent->not found | Technical |
-    | L_05 | verify creditted amount | amount | name present->avaliable; name absent->not found | name present->avaliable; name absent->not found | Technical |
-    | L_06 | verify debitted amount | amount | name present->avaliable; name absent->not found | name present->avaliable; name absent->not found | Technical |
-    | L_07 | verify token is decalling | token | name present->avaliable; name absent->not found | name present->avaliable; name absent->not found | Technical |
-    | L_08 | verify the account | account name | name present->avaliable; name absent->not found | name present->avaliable; name absent->not found | Technical |
-    | L_09 | verify account details | account | name present->avaliable; name absent->not found | name present->avaliable; name absent->not found | Technical |
-    | L_10 | verify the account balance | account | name present->avaliable; name absent->not found | name present->avaliable; name absent->not found | Technical |
-    | L_11 | verify updated account balance | account | name present->avaliable; name absent->not found | name present->avaliable; name absent->not found | Technical |
-    | L_12 | verify the closed account | account | name present->avaliable; name absent->not found | name present->avaliable; name absent->not found | Technical |
-    | L_13 | verify main page | return | if entries present ->display; if entries absent->not displayed | if entries present ->display; if entries absent->not displayed | Technical |
+   | Test ID | Description | Exp.i/p | Exp.o/p | Actual o/p | Type Of Test |
+   | --------|:------------|:--------|:--------|:-----------|:-------------|
+   | L_01 | verify the transactions | amount | name present->avaliable; name absent->not found | name present->avaliable; name absent->not found | Technical |
+   | L_02 | verify the tokens | tokens | name present->avaliable; name absent->not found | name present->avaliable; name absent->not found | Technical |
+   | L_03 | verify token calling | tokens | name present->avaliable; name absent->not found | name present->avaliable; name absent->not found | Technical |
+   | L_04 | verify account | account | account present->avaliable; account absent->not found | account present->avaliable; account absent->not found | Technical |
+   | L_05 | verify creditted amount | amount | name present->avaliable; name absent->not found | name present->avaliable; name absent->not found | Technical |
+   | L_06 | verify debitted amount | amount | name present->avaliable; name absent->not found | name present->avaliable; name absent->not found | Technical |
+   | L_07 | verify token is decalling | token | name present->avaliable; name absent->not found | name present->avaliable; name absent->not found | Technical |
+   | L_08 | verify the account | account name | name present->avaliable; name absent->not found | name present->avaliable; name absent->not found | Technical |
+   | L_09 | verify account details | account | name present->avaliable; name absent->not found | name present->avaliable; name absent->not found | Technical |
+   | L_10 | verify the account balance | account | name present->avaliable; name absent->not found | name present->avaliable; name absent->not found | Technical |
+   | L_11 | verify updated account balance | account | name present->avaliable; name absent->not found | name present->avaliable; name absent->not found | Technical |
+   | L_12 | verify the closed account | account | name present->avaliable; name absent->not found | name present->avaliable; name absent->not found | Technical |
+   | L_13 | verify main page | return | if entries present ->display; if entries absent->not displayed | if entries present ->display; if entries absent->not displayed | Technical |
     
