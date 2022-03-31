@@ -24,7 +24,6 @@ PROJECT_OUTPUT = bank.out
 
 #Document files
 DOCUMENTATION_OUTPUT = documentation/html
-bkc-udrt-nan
 Build:
 	gcc function.c test_bank.c unity/unity.c -Iunity
 Run:
