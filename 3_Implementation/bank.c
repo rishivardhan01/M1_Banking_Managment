@@ -1,3 +1,13 @@
+/**
+ * @file bank.c
+ * @author Rishivardhan T R (rishivardhan.tr.2018.ece@ritchennai.edu.in)
+ * @brief This is the main program where the project is run
+ * @version 0.1
+ * @date 2022-03-31
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -33,6 +43,12 @@ struct bank
 }*front,*rear,*temp,*front1;
 
 
+/* Start of the application */
+/**
+ * @brief Main program
+ * 
+ * @return int 
+ */
 int main()
 {
     

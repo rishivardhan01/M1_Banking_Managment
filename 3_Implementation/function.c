@@ -1,3 +1,13 @@
+/**
+ * @file function.c
+ * @author Rishivardhan T R (rishivardhan.tr.2018.ece@ritchennai.edu.in)
+ * @brief This is the functions program where the project is run 
+ * @version 0.1
+ * @date 2022-03-31
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -14,7 +24,10 @@ struct bank
     float amount;
     struct bank *next; 
 }*front,*rear,*temp,*front1;
-
+/**
+ * @brief SHOWS THE RECORD OF TRANSACTION DETAILS
+ * @return TEXT FILE GENERATED WITH TRANSACTION DETAILS
+ */
 void file()
 {
     char c;
@@ -67,7 +80,10 @@ void file()
     fprintf(f,"--------------------------------------------------------------------------------------------------------------------------\n");
     fclose(f);
 }
-
+/**
+ * @brief GIVES TOKEN INFORMATION
+ * @return INTEGER VALUE OF TOKEN
+ */
 void enqueue(int tok)
 {
     if (rear == NULL)                
@@ -87,7 +103,10 @@ void enqueue(int tok)
         rear = temp;
     }
 }
-
+/**
+ * @brief GIVES TOKEN CALLING INFORMATION
+ * @return INTEGER VALUE OF TOKEN
+ */
 int tokencall()
 {
     int c;
@@ -141,7 +160,10 @@ int tokencall()
         printf("\n\t\t\t\t\t____Enter a valid number____\n");
     }
 }
-
+/**
+ * @brief GIVES ACCOUNT INFORMATION
+ * @return SHOWS INFORATION OF ACCOUNT DETAILS
+ */
 void details()
 {
     system("cls");
@@ -181,7 +203,10 @@ void details()
         }
     }
 }
-
+/**
+ * @brief GIVES CREDIT INFORMATION
+ * @return SHOWS INFORATION OF CREDITTED DETAILS
+ */
 void credit()
 {
     FILE *fp;
@@ -236,6 +261,10 @@ void credit()
         }
     }
 }
+/**
+ * @brief GIVES DEBIT INFORMATION
+ * @return SHOWS INFORATION OF DEBITTED DETAILS
+ */
 void debit()
 {
     int a;
@@ -267,7 +296,10 @@ void debit()
     }
 
 }
-
+/**
+ * @brief GIVES TOKEN DECALLING INFORMATION 
+ * @return INTEGER VALUE OF TOKEN
+ */
 void dequeue()                  
 {
     front1=front;
@@ -286,7 +318,10 @@ void dequeue()
 
 
 // validating the entered account number, by searching the account number in the data file.
-
+/**
+ * @brief VERIFICATION OF ACCOUNT TRANSACTION DETAILS
+ * @return SHOWS VERIFIED INFORMATION
+ */
 int validate(int c)
 {
     FILE *fp;
@@ -373,7 +408,10 @@ int validate(int c)
     fclose(fp);
     return 0;
 }
-
+/**
+ * @brief GIVES ACCOUNT DETAILS
+ * @return TEXT FILE GENERATED
+ */
 void ndata(int c)                                   
 {
     FILE *fn;
@@ -401,7 +439,10 @@ void ndata(int c)
 }
 
 
-
+/**
+ * @brief GIVES BALANCE INFORMATION
+ * @return TEXT FILE GENERATED
+ */
 void balance(float line_no)
 {
     FILE *f;
@@ -427,7 +468,10 @@ void balance(float line_no)
 }
 
 
-
+/**
+ * @brief GIVES UPDATED BALANCE INFORMATION
+ * @return TEXT FILE GENERATED
+ */
 void changebalance(int line,float balance)      
 {                                                
     int max;
@@ -474,7 +518,10 @@ void changebalance(int line,float balance)
     rename("replace.tmp", "PROJECT 7 - balance.txt");
 }
 
-
+/**
+ * @brief DOING FILE OPERATIONS FOR TEXT FILE 
+ * @return TEXT FILE GENERATED
+ */
 int number_of_lines()
 {
 
@@ -492,7 +539,10 @@ int number_of_lines()
     return linesCount;
 
 }
-
+/**
+ * @brief GIVES WRONG INFORMATION
+ * @return BACK TO MAIN PAGE
+ */
 void close()
 {
     int a;
@@ -517,7 +567,10 @@ void close()
         system("cls");
     }
 }
-
+/**
+ * @brief GIVES TRANSACTION DETAILS
+ * @return BACK TO MAIN PAGE
+ */
 void Return()
 {
     printf("\n\t----------------------------------------------------------------------------------------------\n");
