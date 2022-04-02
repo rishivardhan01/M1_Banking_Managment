@@ -16,3 +16,6 @@
 
 ### Build On Windows
 [![Bulid CI - Windows](https://github.com/rishivardhan01/M1_Banking_Managment/actions/workflows/build_windows.yml/badge.svg)](https://github.com/rishivardhan01/M1_Banking_Managment/actions/workflows/build_windows.yml)
+
+### Valgrind
+[![Valgrind](https://github.com/rishivardhan01/M1_Banking_Managment/actions/workflows/valgrind.yml/badge.svg)](https://github.com/rishivardhan01/M1_Banking_Managment/actions/workflows/valgrind.yml)
